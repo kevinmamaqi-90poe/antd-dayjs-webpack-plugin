@@ -1,8 +1,12 @@
 {
-  "name": "antd-dayjs-webpack-plugin",
-  "version": "1.0.6",
+  "name": "@90poe/antd-dayjs-webpack-plugin",
+  "version": "2.0.2",
   "description": "Day.js webpack plugin for Ant Design (antd)",
   "main": "src/index.js",
+  "publishConfig": {
+    "registry": "https://nexus.tools.devopenocean.studio/repository/npm-hosted/",
+    "access": "restricted"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
